@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.font-Hebbo {
+    font-family: 'Heebo', sans-serif;
+}
+
+.font-Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
