@@ -20,26 +20,29 @@
   <!-- Navbar -->
   <header>
     <div class="shadow-sm pt-2 fixed z-10 top-0 bg-base-100 w-full">
-      <nav class="navbar max-w-7xl mx-auto">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost md:hidden swap swap-rotate">
-              <input type="checkbox" />
-              <!-- hamburger icon -->
-              <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                viewBox="0 0 512 512">
-                <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-              </svg>
-              <!-- close icon -->
-              <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                viewBox="0 0 512 512">
-                <polygon
-                  points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-              </svg>
-            </label>
+      <nav class="navbar max-w-7xl mx-auto md:flex md:justify-between">
+        <div class="navbar-start w-full lg:w-fit">
+          <div class="dropdown w-full lg:w-fit">
+            <div class="flex lg:flex-none justify-between lg:justify-normal w-full lg:w-fit">
+              <a class="btn btn-ghost normal-case text-4xl font-Hebbo">Edie</a>
+              <label tabindex="0" class="btn btn-ghost md:hidden swap swap-rotate">
+                <input type="checkbox" />
+                <!-- hamburger icon -->
+                <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                  viewBox="0 0 512 512">
+                  <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                </svg>
+                <!-- close icon -->
+                <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                  viewBox="0 0 512 512">
+                  <polygon
+                    points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+                </svg>
+              </label>
+            </div>
 
             <ul tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg">
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg bg-slate-100">
               <li><a>Home</a></li>
               <li><a>Services</a></li>
               <li><a>Our Works</a></li>
@@ -47,7 +50,8 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-4xl font-Hebbo">Edie</a>
+
+
         </div>
 
         <div class="navbar-end hidden md:block">
@@ -65,7 +69,7 @@
     </div>
 
     <!-- Header Slogan -->
-    <div class="mt-24 md:mt-36 ps-8 lg:p-0 md:max-w-4xl mx-auto">
+    <div class="mt-24 md:mt-36 ps-5 lg:p-0 md:max-w-4xl mx-auto">
       <p class="text-[#2D9CDB] text-sm md:text-lg cursor-pointer">Unhappy with your website?</p>
       <h2 class="md:w-3/5 text-2xl md:text-5xl mt-3 md:leading-tight pe-10 md:pe-0">We create beautiful and fast web
         services</h2>
@@ -79,7 +83,7 @@
 
   <main>
     <!-- Story Section -->
-    <div class="md:max-w-4xl mx-auto text-left ps-8 lg:p-0 mb-5">
+    <div class="md:max-w-4xl mx-auto text-left ps-5 lg:p-0 mb-5">
       <div class="lg:w-2/5">
         <h2 class="text-2xl lg:text-5xl mt-3 lg:leading-tight pe-10 lg:pe-0">Story, emotion and purpose</h2>
         <p class="mt-8 md:mt-11 text-[#4F4F4F] text-base">We help transform your ideas into real world applications that
@@ -91,8 +95,10 @@
           <button class="bg-[#2D9CDB] hover:bg-[#4bb9f8] py-2 px-4 rounded-md text-white mr-2">Join</button>
         </div>
       </div>
-
     </div>
+
+
+
   </main>
 
 
